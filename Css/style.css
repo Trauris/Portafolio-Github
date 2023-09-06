@@ -1,3 +1,63 @@
-body{
-    background-color: green;
+/*body{
+    background-color: rgb(81, 4, 97);
+    color: coral;
+}*/
+
+/* Estilos para el encabezado (header) */
+
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    padding: 20px 0; /* Espaciado interior (arriba y abajo) del encabezado */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+header h1 {
+    font-size: 36px; /* Tamaño de fuente del título principal */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+header nav ul {
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+header nav ul li {
+    display: inline; /* Muestra los elementos de lista en línea */
+    margin-right: 20px; /* Espacio entre elementos de lista */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Elimina la subrayado enlaces */
+    color: #fff; /* Color de texto de enlaces en el encabezado */
+    font-weight: bold; /* Establece el peso de fuente a negrita */
+}
+
+
+/* Estilos para la barra de navegación (nav) */
+
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 10px 0; /* Espaciado interior (arriba y abajo) de la barra de navegación */
+}
+
+nav ul {
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de lista en línea */
+    margin-right: 20px; /* Espacio entre elementos de lista */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina la subrayado enlaces */
+    color: #fff; /* Color de texto de enlaces en la barra de navegación */
+    font-weight: bold; /* Establece el peso de fuente a negrita */
 }
