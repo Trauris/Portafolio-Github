@@ -6,7 +6,7 @@
 /* Estilos para el encabezado (header) */
 
 header {
-    background-color: #333; /* Color de fondo del encabezado */
+    background-color: #fff; /* Color de fondo del encabezado */
     color: #fff; /* Color del texto en el encabezado */
     padding: 20px 0; /* Espaciado interior (arriba y abajo) del encabezado */
     text-align: center; /* Alineación del texto al centro */
@@ -37,9 +37,15 @@ header nav ul li a {
 /* Estilos para la barra de navegación (nav) */
 
 nav {
-    background-color: #333; /* Color de fondo de la barra de navegación */
+    background-color: #5D08D9; /* Color de fondo de la barra de navegación */
     text-align: center; /* Alineación del texto al centro */
     padding: 10px 0; /* Espaciado interior (arriba y abajo) de la barra de navegación */
+}
+
+nav ul :hover {
+    transition: all 550ms ease-in-out;
+    font-size: 20px;
+    background-color: green;
 }
 
 nav ul {
@@ -60,4 +66,12 @@ nav ul li a {
     text-decoration: none; /* Elimina la subrayado enlaces */
     color: #fff; /* Color de texto de enlaces en la barra de navegación */
     font-weight: bold; /* Establece el peso de fuente a negrita */
+}
+
+/* Estilo de el footer */
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    background-color: #5D08D9;
 }
