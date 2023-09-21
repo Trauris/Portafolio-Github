@@ -42,14 +42,6 @@ nav {
     padding: 10px 0; /* Espaciado interior (arriba y abajo) de la barra de navegación */
 }
 
-/* Animación de el nav*/
-/*nav ul :hover {
-    transition: all 450ms ease-in-out;
-    font-size: 20px;
-    background-color: #E9CF4A;
-    color: black;
-}*/
-
 nav ul {
     list-style: none; /* Elimina los puntos de lista */
     padding: 0; /* Elimina el relleno predeterminado de la lista */
@@ -70,38 +62,12 @@ nav ul li a {
     font-weight: bold; /* Establece el peso de fuente a negrita */
 }
 
-.wobble-hor-bottom:hover:hover {
-	animation: wobble-hor-bottom 0.8s both;
+/*Estilos Contacto*/
+.github {
+    border-radius: 10px;
+    font-size: 15px;
+    
 }
-
-/**
- * ----------------------------------------
- * animation wobble-hor-bottom
- * ----------------------------------------
- */
-@keyframes wobble-hor-bottom {
-    0%,
-    100% {
-    transform: translateX(0%);
-    transform-origin: 50% 50%;
-    }
-    15% {
-    transform: translateX(-30px) rotate(-6deg);
-    }
-    30% {
-    transform: translateX(15px) rotate(6deg);
-    }
-    45% {
-    transform: translateX(-15px) rotate(-3.6deg);
-    }
-    60% {
-    transform: translateX(9px) rotate(2.4deg);
-    }
-    75% {
-    transform: translateX(-6px) rotate(-1.2deg);
-    }
-}
-
 
 /* Estilo de el footer */
 
